@@ -93,6 +93,7 @@ nav {
 .bloc_services , .bloc_portfolio , .bloc_about {
 	width: 935px;
 	text-align: center;
+	background: #ffffff;
 }
 .services_title , .portfolio_title , .about_title {
 	text-transform: uppercase;
