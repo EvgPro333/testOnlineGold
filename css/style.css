@@ -2,7 +2,7 @@
 .page {
 margin: 0 auto;
 width: 1400px;
-background:rgb(250, 250, 250);
+background: #ffffff;
 font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 /* =============================================header */
@@ -90,10 +90,12 @@ nav {
 	flex-wrap: wrap;
 }
 /* !#############################################   ОБЩАК */
+.block_services , .block_about {
+	background: #ffffff;
+}
 .bloc_services , .bloc_portfolio , .bloc_about {
 	width: 935px;
 	text-align: center;
-	background: #ffffff;
 }
 .services_title , .portfolio_title , .about_title {
 	text-transform: uppercase;
@@ -160,10 +162,11 @@ nav {
 
 /* *#############################################   portfolio */
 .block_portfolio {
+	width: 1400px;
 	text-align: center;
 	display: flex;
 	justify-content: center;
-	background-color: #f7f7f7;
+	background-color: #f2f2f2;
 }
 .portfolio-body {
 	justify-content: space-between;
